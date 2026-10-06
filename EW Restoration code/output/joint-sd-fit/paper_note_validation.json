@@ -1,0 +1,7 @@
+{
+  "pages": 1,
+  "max_contour_residual": 1.7763568394002505e-15,
+  "source": "fit_results.json",
+  "overlays": 2,
+  "delta_chi2": 2.3
+}

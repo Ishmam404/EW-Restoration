@@ -1,0 +1,49 @@
+Joint n7 / C_Hq3 fit through S_i and D_i
+
+SM Asimov, interference-only rates; kappa7=1; all other deformations fixed.
+pT bins 100-200 and 200-1500 GeV; same upper mass cutoff in both channels.
+C_Hq3 in TeV^-2. Normalized response coordinates x=n7/1e-4, y=C_Hq3/0.01.
+Fixed fractional channel errors: WZ=(0.088,0.091), Wh=(0.15,0.15).
+Baseline has no cross-channel or cross-bin experimental covariance.
+Reported 1D intervals profile over the other coefficient (Delta chi2=1).
+2D contours use Delta chi2=2.30 and 5.991 (nominal 68%,95%).
+This is a two-deformation benchmark, not a general SMEFT-versus-HEFT likelihood test.
+Source flavour/charge content is preserved (source W+ luminosity convention); no detector or new charge-summed model is generated.
+At linear order the two derivative templates may be added without double-counting SM.
+No joint quadratic/full-amplitude model is claimed: it requires consistent mixed coefficient terms.
+Total errors remain fixed after changing cuts and extending pT acceptance.
+Correlation sweeps below are assumptions, not extracted nuisance estimates.
+
+PDF 1, Mmax=500: profiled +/- [0.0005565390041021944, 0.017460336212367047]; other coefficient fixed +/- [0.0005088400696440553, 0.01596387428162726]; parameter correlation=-0.40505203
+PDF 1, Mmax=1000: profiled +/- [0.000353033968283821, 0.011302757962218222]; other coefficient fixed +/- [0.0003240531796486875, 0.010374907191683371]; parameter correlation=-0.39679016
+PDF 1, Mmax=2000: profiled +/- [0.00029827695487710413, 0.00959952339672302]; other coefficient fixed +/- [0.0002754469884382744, 0.008864780757734217]; parameter correlation=-0.38369348
+PDF 1, Mmax=3000: profiled +/- [0.000291176315103144, 0.009377220429902335]; other coefficient fixed +/- [0.000269165746727121, 0.008668378601966252]; parameter correlation=-0.38140484
+PDF 2, Mmax=500: profiled +/- [0.000556409369919482, 0.017456348344360936]; other coefficient fixed +/- [0.0005086999367504199, 0.01595955024976437]; parameter correlation=-0.40513968
+PDF 2, Mmax=1000: profiled +/- [0.0003533875110199536, 0.011313615346545736]; other coefficient fixed +/- [0.0003243648292711546, 0.010384461238401303]; parameter correlation=-0.39687440
+PDF 2, Mmax=2000: profiled +/- [0.00030031511209336383, 0.009663211749427705]; other coefficient fixed +/- [0.0002772718660142569, 0.008921751339045979]; parameter correlation=-0.38415221
+PDF 2, Mmax=3000: profiled +/- [0.00029398867109444804, 0.009465247062756406]; other coefficient fixed +/- [0.0002716800122064197, 0.008746998406344379]; parameter correlation=-0.38210894
+
+3 TeV nCTEQ15 response matrix (rows S1,D1,S2,D2; columns x,y):
+[[-0.00090911  0.02509819]
+ [ 0.00787993 -0.00154322]
+ [-0.0015246   0.08688485]
+ [ 0.02826344 -0.00340888]]
+S,D covariance (rows S1,D1,S2,D2):
+[[ 0.007561   -0.003689    0.          0.        ]
+ [-0.003689    0.007561    0.          0.        ]
+ [ 0.          0.          0.00769525 -0.00355475]
+ [ 0.          0.         -0.00355475  0.00769525]]
+
+3 TeV nCTEQ15 correlation sensitivity (profiled sigmas n7,C_Hq3):
+independent: [0.00029398867109444804, 0.009465247062756406], coefficient correlation -0.382109
+rho=-0.5: [0.0003550162180753648, 0.006922146298982123], coefficient correlation -0.423210
+rho=+0.5: [0.00021628058452495633, 0.011457037277590865], coefficient correlation -0.438375
+common=3%: [0.000284931297498093, 0.010001498125941007], coefficient correlation -0.373423
+common=5%: [0.00026806229995819886, 0.010575550605550233], coefficient correlation -0.378292
+S-only Fisher condition number: 39770.1; not used for reported joint limits.
+D-only Fisher condition number: 2684.17; not used for reported joint limits.
+
+Quadrature convergence max relative coefficient change: 1.29604e-05
+Checks passed: channel-space and S,D Fisher matrices identical; profiled endpoints chi2=1;
+95% joint ellipses predict positive integrated rates; illustrative common-nuisance profiling equals covariance treatment.
+S_i and D_i must be fitted with their covariance; adding a separate ratio or WZ-fraction likelihood would require their shared-data covariance.

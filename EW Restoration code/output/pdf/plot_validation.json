@@ -1,0 +1,5 @@
+{
+  "max_contour_residual": 1.7763568394002505e-15,
+  "delta_chi2": 2.3,
+  "source": "output/joint-sd-fit/fit_results.json"
+}
